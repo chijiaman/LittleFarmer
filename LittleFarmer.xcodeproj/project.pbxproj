@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02AB082D1C0077830066C75E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AB082C1C0077830066C75E /* AppDelegate.swift */; };
+		02AB082F1C0077830066C75E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AB082E1C0077830066C75E /* ViewController.swift */; };
+		02AB08321C0077830066C75E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02AB08301C0077830066C75E /* Main.storyboard */; };
+		02AB08341C0077830066C75E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02AB08331C0077830066C75E /* Assets.xcassets */; };
+		02AB08371C0077830066C75E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02AB08351C0077830066C75E /* LaunchScreen.storyboard */; };
+		02AB08421C0077830066C75E /* LittleFarmerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AB08411C0077830066C75E /* LittleFarmerTests.swift */; };
+		02AB084D1C0077830066C75E /* LittleFarmerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AB084C1C0077830066C75E /* LittleFarmerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02AB083E1C0077830066C75E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02AB08211C0077830066C75E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02AB08281C0077830066C75E;
+			remoteInfo = LittleFarmer;
+		};
+		02AB08491C0077830066C75E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02AB08211C0077830066C75E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02AB08281C0077830066C75E;
+			remoteInfo = LittleFarmer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02AB08291C0077830066C75E /* LittleFarmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleFarmer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02AB082C1C0077830066C75E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02AB082E1C0077830066C75E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02AB08311C0077830066C75E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02AB08331C0077830066C75E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02AB08361C0077830066C75E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02AB08381C0077830066C75E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02AB083D1C0077830066C75E /* LittleFarmerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleFarmerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02AB08411C0077830066C75E /* LittleFarmerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleFarmerTests.swift; sourceTree = "<group>"; };
+		02AB08431C0077830066C75E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02AB08481C0077830066C75E /* LittleFarmerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleFarmerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02AB084C1C0077830066C75E /* LittleFarmerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleFarmerUITests.swift; sourceTree = "<group>"; };
+		02AB084E1C0077830066C75E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02AB08261C0077830066C75E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02AB083A1C0077830066C75E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02AB08451C0077830066C75E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02AB08201C0077830066C75E = {
+			isa = PBXGroup;
+			children = (
+				02AB082B1C0077830066C75E /* LittleFarmer */,
+				02AB08401C0077830066C75E /* LittleFarmerTests */,
+				02AB084B1C0077830066C75E /* LittleFarmerUITests */,
+				02AB082A1C0077830066C75E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02AB082A1C0077830066C75E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02AB08291C0077830066C75E /* LittleFarmer.app */,
+				02AB083D1C0077830066C75E /* LittleFarmerTests.xctest */,
+				02AB08481C0077830066C75E /* LittleFarmerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02AB082B1C0077830066C75E /* LittleFarmer */ = {
+			isa = PBXGroup;
+			children = (
+				02AB082C1C0077830066C75E /* AppDelegate.swift */,
+				02AB082E1C0077830066C75E /* ViewController.swift */,
+				02AB08301C0077830066C75E /* Main.storyboard */,
+				02AB08331C0077830066C75E /* Assets.xcassets */,
+				02AB08351C0077830066C75E /* LaunchScreen.storyboard */,
+				02AB08381C0077830066C75E /* Info.plist */,
+			);
+			path = LittleFarmer;
+			sourceTree = "<group>";
+		};
+		02AB08401C0077830066C75E /* LittleFarmerTests */ = {
+			isa = PBXGroup;
+			children = (
+				02AB08411C0077830066C75E /* LittleFarmerTests.swift */,
+				02AB08431C0077830066C75E /* Info.plist */,
+			);
+			path = LittleFarmerTests;
+			sourceTree = "<group>";
+		};
+		02AB084B1C0077830066C75E /* LittleFarmerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02AB084C1C0077830066C75E /* LittleFarmerUITests.swift */,
+				02AB084E1C0077830066C75E /* Info.plist */,
+			);
+			path = LittleFarmerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02AB08281C0077830066C75E /* LittleFarmer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02AB08511C0077830066C75E /* Build configuration list for PBXNativeTarget "LittleFarmer" */;
+			buildPhases = (
+				02AB08251C0077830066C75E /* Sources */,
+				02AB08261C0077830066C75E /* Frameworks */,
+				02AB08271C0077830066C75E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittleFarmer;
+			productName = LittleFarmer;
+			productReference = 02AB08291C0077830066C75E /* LittleFarmer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02AB083C1C0077830066C75E /* LittleFarmerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02AB08541C0077830066C75E /* Build configuration list for PBXNativeTarget "LittleFarmerTests" */;
+			buildPhases = (
+				02AB08391C0077830066C75E /* Sources */,
+				02AB083A1C0077830066C75E /* Frameworks */,
+				02AB083B1C0077830066C75E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02AB083F1C0077830066C75E /* PBXTargetDependency */,
+			);
+			name = LittleFarmerTests;
+			productName = LittleFarmerTests;
+			productReference = 02AB083D1C0077830066C75E /* LittleFarmerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02AB08471C0077830066C75E /* LittleFarmerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02AB08571C0077830066C75E /* Build configuration list for PBXNativeTarget "LittleFarmerUITests" */;
+			buildPhases = (
+				02AB08441C0077830066C75E /* Sources */,
+				02AB08451C0077830066C75E /* Frameworks */,
+				02AB08461C0077830066C75E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02AB084A1C0077830066C75E /* PBXTargetDependency */,
+			);
+			name = LittleFarmerUITests;
+			productName = LittleFarmerUITests;
+			productReference = 02AB08481C0077830066C75E /* LittleFarmerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02AB08211C0077830066C75E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = pingRuiLiao;
+				TargetAttributes = {
+					02AB08281C0077830066C75E = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					02AB083C1C0077830066C75E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 02AB08281C0077830066C75E;
+					};
+					02AB08471C0077830066C75E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 02AB08281C0077830066C75E;
+					};
+				};
+			};
+			buildConfigurationList = 02AB08241C0077830066C75E /* Build configuration list for PBXProject "LittleFarmer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02AB08201C0077830066C75E;
+			productRefGroup = 02AB082A1C0077830066C75E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02AB08281C0077830066C75E /* LittleFarmer */,
+				02AB083C1C0077830066C75E /* LittleFarmerTests */,
+				02AB08471C0077830066C75E /* LittleFarmerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02AB08271C0077830066C75E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02AB08371C0077830066C75E /* LaunchScreen.storyboard in Resources */,
+				02AB08341C0077830066C75E /* Assets.xcassets in Resources */,
+				02AB08321C0077830066C75E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02AB083B1C0077830066C75E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02AB08461C0077830066C75E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02AB08251C0077830066C75E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02AB082F1C0077830066C75E /* ViewController.swift in Sources */,
+				02AB082D1C0077830066C75E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02AB08391C0077830066C75E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02AB08421C0077830066C75E /* LittleFarmerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02AB08441C0077830066C75E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02AB084D1C0077830066C75E /* LittleFarmerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02AB083F1C0077830066C75E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02AB08281C0077830066C75E /* LittleFarmer */;
+			targetProxy = 02AB083E1C0077830066C75E /* PBXContainerItemProxy */;
+		};
+		02AB084A1C0077830066C75E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02AB08281C0077830066C75E /* LittleFarmer */;
+			targetProxy = 02AB08491C0077830066C75E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02AB08301C0077830066C75E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02AB08311C0077830066C75E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02AB08351C0077830066C75E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02AB08361C0077830066C75E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02AB084F1C0077830066C75E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02AB08501C0077830066C75E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02AB08521C0077830066C75E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LittleFarmer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PingJuiLiao.LittleFarmer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		02AB08531C0077830066C75E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LittleFarmer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PingJuiLiao.LittleFarmer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		02AB08551C0077830066C75E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LittleFarmerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PingJuiLiao.LittleFarmerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleFarmer.app/LittleFarmer";
+			};
+			name = Debug;
+		};
+		02AB08561C0077830066C75E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LittleFarmerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PingJuiLiao.LittleFarmerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleFarmer.app/LittleFarmer";
+			};
+			name = Release;
+		};
+		02AB08581C0077830066C75E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LittleFarmerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PingJuiLiao.LittleFarmerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LittleFarmer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		02AB08591C0077830066C75E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LittleFarmerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PingJuiLiao.LittleFarmerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LittleFarmer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02AB08241C0077830066C75E /* Build configuration list for PBXProject "LittleFarmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02AB084F1C0077830066C75E /* Debug */,
+				02AB08501C0077830066C75E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02AB08511C0077830066C75E /* Build configuration list for PBXNativeTarget "LittleFarmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02AB08521C0077830066C75E /* Debug */,
+				02AB08531C0077830066C75E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02AB08541C0077830066C75E /* Build configuration list for PBXNativeTarget "LittleFarmerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02AB08551C0077830066C75E /* Debug */,
+				02AB08561C0077830066C75E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02AB08571C0077830066C75E /* Build configuration list for PBXNativeTarget "LittleFarmerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02AB08581C0077830066C75E /* Debug */,
+				02AB08591C0077830066C75E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02AB08211C0077830066C75E /* Project object */;
+}
