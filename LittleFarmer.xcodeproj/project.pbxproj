@@ -7,13 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		022D0B1A1C0325A500A1C72A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022D0B191C0325A500A1C72A /* LoginViewController.swift */; };
+		022D0B1C1C05AB7400A1C72A /* MyCropsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022D0B1B1C05AB7400A1C72A /* MyCropsViewController.swift */; };
+		022D0B1E1C05B1A400A1C72A /* CropInfoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022D0B1D1C05B1A400A1C72A /* CropInfoCollectionViewCell.swift */; };
+		022D0B221C05BCDA00A1C72A /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022D0B211C05BCDA00A1C72A /* CropViewController.swift */; };
+		02805E951C0728B70073D3C3 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02805E891C0728B70073D3C3 /* JiroTextField.swift */; };
+		02805E961C0728B70073D3C3 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02805E8A1C0728B70073D3C3 /* KaedeTextField.swift */; };
+		02805E991C0728B70073D3C3 /* TextFieldsEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02805E8E1C0728B70073D3C3 /* TextFieldsEffects.swift */; };
+		02805E9B1C0728B70073D3C3 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02805E901C0728B70073D3C3 /* YoshikoTextField.swift */; };
+		02805E9D1C07696C0073D3C3 /* Crop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02805E9C1C07696C0073D3C3 /* Crop.swift */; };
+		02805E9F1C077E230073D3C3 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02805E9E1C077E230073D3C3 /* SignUpViewController.swift */; };
+		02805EA51C0805DA0073D3C3 /* FarmerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02805EA41C0805DA0073D3C3 /* FarmerViewController.swift */; };
+		02805EA71C0A21770073D3C3 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02805EA61C0A21770073D3C3 /* MyTabBarController.swift */; };
+		029FB1DA1C0C494A00E412F6 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029FB1D91C0C494A00E412F6 /* TimelineViewController.swift */; };
 		02AB082D1C0077830066C75E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AB082C1C0077830066C75E /* AppDelegate.swift */; };
-		02AB082F1C0077830066C75E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AB082E1C0077830066C75E /* ViewController.swift */; };
 		02AB08321C0077830066C75E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02AB08301C0077830066C75E /* Main.storyboard */; };
 		02AB08341C0077830066C75E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02AB08331C0077830066C75E /* Assets.xcassets */; };
 		02AB08371C0077830066C75E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02AB08351C0077830066C75E /* LaunchScreen.storyboard */; };
 		02AB08421C0077830066C75E /* LittleFarmerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AB08411C0077830066C75E /* LittleFarmerTests.swift */; };
 		02AB084D1C0077830066C75E /* LittleFarmerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AB084C1C0077830066C75E /* LittleFarmerUITests.swift */; };
+		02ABF95B1C1AFE7C00E38A40 /* PostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ABF95A1C1AFE7B00E38A40 /* PostCollectionViewCell.swift */; };
+		02ABF95D1C1B0AEF00E38A40 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ABF95C1C1B0AEF00E38A40 /* Timeline.swift */; };
+		02ABF95F1C1B264800E38A40 /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ABF95E1C1B264800E38A40 /* NewPostViewController.swift */; };
+		02CA5AA21C1AB47700A75CE5 /* fireplace.gif in Resources */ = {isa = PBXBuildFile; fileRef = 02CA5AA11C1AB47700A75CE5 /* fireplace.gif */; };
+		D4CE116940667DFC8BF4121A /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E9823E4A193B7857246170 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +51,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01BD3EE3C8E64F495EA43AC1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		022D0B191C0325A500A1C72A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		022D0B1B1C05AB7400A1C72A /* MyCropsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCropsViewController.swift; sourceTree = "<group>"; };
+		022D0B1D1C05B1A400A1C72A /* CropInfoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropInfoCollectionViewCell.swift; sourceTree = "<group>"; };
+		022D0B211C05BCDA00A1C72A /* CropViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropViewController.swift; sourceTree = "<group>"; };
+		02805E801C0727780073D3C3 /* LittleFarmer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LittleFarmer-Bridging-Header.h"; sourceTree = "<group>"; };
+		02805E891C0728B70073D3C3 /* JiroTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JiroTextField.swift; sourceTree = "<group>"; };
+		02805E8A1C0728B70073D3C3 /* KaedeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KaedeTextField.swift; sourceTree = "<group>"; };
+		02805E8D1C0728B70073D3C3 /* TextFieldEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldEffects.h; sourceTree = "<group>"; };
+		02805E8E1C0728B70073D3C3 /* TextFieldsEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldsEffects.swift; sourceTree = "<group>"; };
+		02805E901C0728B70073D3C3 /* YoshikoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoshikoTextField.swift; sourceTree = "<group>"; };
+		02805E9C1C07696C0073D3C3 /* Crop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crop.swift; sourceTree = "<group>"; };
+		02805E9E1C077E230073D3C3 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		02805EA41C0805DA0073D3C3 /* FarmerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FarmerViewController.swift; sourceTree = "<group>"; };
+		02805EA61C0A21770073D3C3 /* MyTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
+		029FB1D91C0C494A00E412F6 /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
 		02AB08291C0077830066C75E /* LittleFarmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleFarmer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02AB082C1C0077830066C75E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		02AB082E1C0077830066C75E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		02AB08311C0077830066C75E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02AB08331C0077830066C75E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02AB08361C0077830066C75E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +79,12 @@
 		02AB08481C0077830066C75E /* LittleFarmerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleFarmerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02AB084C1C0077830066C75E /* LittleFarmerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleFarmerUITests.swift; sourceTree = "<group>"; };
 		02AB084E1C0077830066C75E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02ABF95A1C1AFE7B00E38A40 /* PostCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCollectionViewCell.swift; sourceTree = "<group>"; };
+		02ABF95C1C1B0AEF00E38A40 /* Timeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		02ABF95E1C1B264800E38A40 /* NewPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
+		02CA5AA11C1AB47700A75CE5 /* fireplace.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = fireplace.gif; sourceTree = "<group>"; };
+		E1E9823E4A193B7857246170 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8EA00428A1882E909448A1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4CE116940667DFC8BF4121A /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +113,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02805E841C0728B70073D3C3 /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				02805E891C0728B70073D3C3 /* JiroTextField.swift */,
+				02805E8A1C0728B70073D3C3 /* KaedeTextField.swift */,
+				02805E8D1C0728B70073D3C3 /* TextFieldEffects.h */,
+				02805E8E1C0728B70073D3C3 /* TextFieldsEffects.swift */,
+				02805E901C0728B70073D3C3 /* YoshikoTextField.swift */,
+			);
+			path = TextFieldEffects;
+			sourceTree = "<group>";
+		};
 		02AB08201C0077830066C75E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +132,8 @@
 				02AB08401C0077830066C75E /* LittleFarmerTests */,
 				02AB084B1C0077830066C75E /* LittleFarmerUITests */,
 				02AB082A1C0077830066C75E /* Products */,
+				CD704D40014063EE60A38CDF /* Pods */,
+				394BC862CECF8E1A6120F676 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +150,26 @@
 		02AB082B1C0077830066C75E /* LittleFarmer */ = {
 			isa = PBXGroup;
 			children = (
+				02CA5AA01C1AB44900A75CE5 /* Gif */,
+				02805EA61C0A21770073D3C3 /* MyTabBarController.swift */,
+				02ABF95A1C1AFE7B00E38A40 /* PostCollectionViewCell.swift */,
+				029FB1D91C0C494A00E412F6 /* TimelineViewController.swift */,
+				02ABF95E1C1B264800E38A40 /* NewPostViewController.swift */,
 				02AB082C1C0077830066C75E /* AppDelegate.swift */,
-				02AB082E1C0077830066C75E /* ViewController.swift */,
+				02805E9C1C07696C0073D3C3 /* Crop.swift */,
+				02805E9E1C077E230073D3C3 /* SignUpViewController.swift */,
+				022D0B191C0325A500A1C72A /* LoginViewController.swift */,
 				02AB08301C0077830066C75E /* Main.storyboard */,
+				02805EA41C0805DA0073D3C3 /* FarmerViewController.swift */,
+				022D0B1D1C05B1A400A1C72A /* CropInfoCollectionViewCell.swift */,
+				022D0B1B1C05AB7400A1C72A /* MyCropsViewController.swift */,
+				02ABF95C1C1B0AEF00E38A40 /* Timeline.swift */,
+				022D0B211C05BCDA00A1C72A /* CropViewController.swift */,
 				02AB08331C0077830066C75E /* Assets.xcassets */,
+				02805E841C0728B70073D3C3 /* TextFieldEffects */,
 				02AB08351C0077830066C75E /* LaunchScreen.storyboard */,
 				02AB08381C0077830066C75E /* Info.plist */,
+				02805E801C0727780073D3C3 /* LittleFarmer-Bridging-Header.h */,
 			);
 			path = LittleFarmer;
 			sourceTree = "<group>";
@@ -125,6 +192,31 @@
 			path = LittleFarmerUITests;
 			sourceTree = "<group>";
 		};
+		02CA5AA01C1AB44900A75CE5 /* Gif */ = {
+			isa = PBXGroup;
+			children = (
+				02CA5AA11C1AB47700A75CE5 /* fireplace.gif */,
+			);
+			name = Gif;
+			sourceTree = "<group>";
+		};
+		394BC862CECF8E1A6120F676 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1E9823E4A193B7857246170 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD704D40014063EE60A38CDF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01BD3EE3C8E64F495EA43AC1 /* Pods.debug.xcconfig */,
+				ED8EA00428A1882E909448A1 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02AB08511C0077830066C75E /* Build configuration list for PBXNativeTarget "LittleFarmer" */;
 			buildPhases = (
+				997DA8EF5DA888C470676AA5 /* Check Pods Manifest.lock */,
 				02AB08251C0077830066C75E /* Sources */,
 				02AB08261C0077830066C75E /* Frameworks */,
 				02AB08271C0077830066C75E /* Resources */,
+				7C37B3AF0F4558461057E282 /* Embed Pods Frameworks */,
+				968DC74AB816577F59A33F9E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,6 +324,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02CA5AA21C1AB47700A75CE5 /* fireplace.gif in Resources */,
 				02AB08371C0077830066C75E /* LaunchScreen.storyboard in Resources */,
 				02AB08341C0077830066C75E /* Assets.xcassets in Resources */,
 				02AB08321C0077830066C75E /* Main.storyboard in Resources */,
@@ -251,13 +347,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7C37B3AF0F4558461057E282 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		968DC74AB816577F59A33F9E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		997DA8EF5DA888C470676AA5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		02AB08251C0077830066C75E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02AB082F1C0077830066C75E /* ViewController.swift in Sources */,
+				02ABF95D1C1B0AEF00E38A40 /* Timeline.swift in Sources */,
+				02805E9F1C077E230073D3C3 /* SignUpViewController.swift in Sources */,
+				02805E9B1C0728B70073D3C3 /* YoshikoTextField.swift in Sources */,
+				02805E991C0728B70073D3C3 /* TextFieldsEffects.swift in Sources */,
+				02805E951C0728B70073D3C3 /* JiroTextField.swift in Sources */,
+				022D0B1E1C05B1A400A1C72A /* CropInfoCollectionViewCell.swift in Sources */,
+				02ABF95B1C1AFE7C00E38A40 /* PostCollectionViewCell.swift in Sources */,
+				02805EA71C0A21770073D3C3 /* MyTabBarController.swift in Sources */,
+				022D0B221C05BCDA00A1C72A /* CropViewController.swift in Sources */,
+				02805E961C0728B70073D3C3 /* KaedeTextField.swift in Sources */,
+				022D0B1A1C0325A500A1C72A /* LoginViewController.swift in Sources */,
 				02AB082D1C0077830066C75E /* AppDelegate.swift in Sources */,
+				02805EA51C0805DA0073D3C3 /* FarmerViewController.swift in Sources */,
+				029FB1DA1C0C494A00E412F6 /* TimelineViewController.swift in Sources */,
+				022D0B1C1C05AB7400A1C72A /* MyCropsViewController.swift in Sources */,
+				02805E9D1C07696C0073D3C3 /* Crop.swift in Sources */,
+				02ABF95F1C1B264800E38A40 /* NewPostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +512,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
@@ -389,29 +549,37 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		02AB08521C0077830066C75E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01BD3EE3C8E64F495EA43AC1 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = LittleFarmer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.PingJuiLiao.LittleFarmer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LittleFarmer/LittleFarmer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		02AB08531C0077830066C75E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED8EA00428A1882E909448A1 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = LittleFarmer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.PingJuiLiao.LittleFarmer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LittleFarmer/LittleFarmer-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -482,6 +650,7 @@
 				02AB08531C0077830066C75E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02AB08541C0077830066C75E /* Build configuration list for PBXNativeTarget "LittleFarmerTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +659,7 @@
 				02AB08561C0077830066C75E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02AB08571C0077830066C75E /* Build configuration list for PBXNativeTarget "LittleFarmerUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +668,7 @@
 				02AB08591C0077830066C75E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
